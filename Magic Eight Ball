@@ -37,6 +37,9 @@ switch(randomNumber){
   case 7:
    eightball = 'Bayern Munich'
   break
+   case 0:
+   eightball = 'Barcelona'
+   break
 }
 
 console.log(`The magic 8 ball says, ${eightball}`)
