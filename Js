@@ -1,0 +1,42 @@
+let userName = 'Philip';
+
+userName ? console.log(`Hello,${userName}`) : console.log('Hello!');
+
+let userQuestion = 'What is the best football Team in the world?';
+
+console.log(`${userName} has asked - ${userQuestion}`);
+
+let randomNumber = Math.floor(Math.random() * 8);
+
+console.log(randomNumber);
+
+let eightball ='';
+
+switch(randomNumber){
+  case 8:
+   eightball = 'Arsenal';
+  break;
+  case 1:
+   eightball = 'Chelsea'
+  break
+  case 2:
+   eightball = 'Man city'
+  break
+  case 3:
+   eightball = 'Man Utd'
+  break
+  case 4:
+   eightball = 'Liverpool'
+  break
+  case 5:
+   eightball = 'Real Madrid'
+  break
+  case 6:
+   eightball = 'PSG'
+  break
+  case 7:
+   eightball = 'Bayern Munich'
+  break
+}
+
+console.log(`The magic 8 ball says, ${eightball}`)
